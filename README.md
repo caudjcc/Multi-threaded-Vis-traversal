@@ -1,9 +1,10 @@
 # Multi-threaded-Vis-traversal
 This is a simple multi-threaded vegetation index traversal method, which can simply and quickly mine hyperspectral data information, construct the best vegetation index and its combination.The source of the 30 vegetation index calculation methods used in the program is as follows:
-30 vegetation index calculation methods
-	Index form	       Long_name	                      Formula	
-	NDVI	Normalized Difference Vegetation Index	(b1 – b2) / (b1 + b2)	[1]
 
+	Index form	       Long_name	                      Formula	
+	
+	NDVI	Normalized Difference Vegetation Index	(b1 – b2) / (b1 + b2)	[1]
+	
 	TDVI	Transformed Difference Vegetation Index	1.5×((b1 – b2)/((b1 2 + b22 + 0.5) 0.5))	[2]
 
 	NIRv	Near-Infrared Reflectance of Vegetation	((b1 - b2) / (b1 + b2)) × b1 	[3]
@@ -61,7 +62,9 @@ This is a simple multi-threaded vegetation index traversal method, which can sim
 	GARI	Green Atmospherically Resistant Vegetation Index	(b4 - (b1 - (b2 – b3))) / (b4 - (b1 + (b2 – b3)))	[27]
 
 	WRI	Water Ratio Index	(b1 + b2) / (b3 + b4)	[28]
+	
 REFERENCES:
+
 	[1]	J. W. H. Rouse, R.H.; Schell, J.A.; Deering, D.W. , "Monitoring vegetation systems in the great plains with ERTS," NASA Spéc. Pub, vol. l. 1974, 1, no. 309–317, 1974.
 	[2]	 A. Bannari, H. Asalhi, and P. M. Teillet, "Transformed difference vegetation index (TDVI) for vegetation cover mapping," in IEEE International Geoscience and Remote Sensing Symposium, 24-28 June 2002 2002, vol. 5, pp. 3053-3055 vol.5, doi: 10.1109/IGARSS.2002.1026867. 
 	[3]	G. Badgley, C. B. Field, and J. A. Berry, "Canopy near-infrared reflectance and terrestrial photosynthesis," Science advances, vol. 3, no. 3, p. e1602244, 2017.
